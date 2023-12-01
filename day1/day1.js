@@ -27,6 +27,8 @@ In this example, the calibration values of these four lines are 12, 38, 15, and 
 
 Consider your entire calibration document. What is the sum of all of the calibration values?
 
+my correct answer 55607
+
 --- Part Two ---
 Your calculation isn't quite right. It looks like some of the digits are actually spelled out with letters: one, two, three, four, five, six, seven, eight, and nine also count as valid "digits".
 
@@ -41,6 +43,7 @@ zoneight234
 7pqrstsixteen
 In this example, the calibration values are 29, 83, 13, 24, 42, 14, and 76. Adding these together produces 281.
 
+my correct answer 55291
 
 */
   let input = await files.readAFile("input.txt");
